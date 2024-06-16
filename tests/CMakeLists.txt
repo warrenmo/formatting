@@ -1,0 +1,4 @@
+add_executable(test_source_location_formatter test_source_location_formatter.cpp)
+target_link_libraries(test_source_location_formatter gtest gtest_main)
+add_test(NAME test_source_location_formatter COMMAND test_source_location_formatter)
+
