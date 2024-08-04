@@ -1,9 +1,9 @@
-cmake_minimum_required(VERSION 3.5)
-project(SourceLocationFormatter)
-
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_COMPILER "/usr/local/bin/g++-14")
+
+cmake_minimum_required(VERSION 3.10)
+project(SourceLocationFormatter)
 
 include_directories(include)
 
